@@ -1,7 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   images: {
     remotePatterns: [
       {
@@ -13,9 +12,6 @@ const nextConfig: NextConfig = {
         hostname: "avatars.githubusercontent.com",
       },
     ],
-  },
-  turbopack: {
-    root: "C:\\Users\\LENOVO\\next-auth-app",
   },
 };
 
